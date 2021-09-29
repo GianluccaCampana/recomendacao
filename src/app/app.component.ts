@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'recomendacao';
+
+  reco = [  
+  ]
+
+  onRecomendacaoAdicionada (evento){
+    this.reco = [evento, ...this.reco]
+  }
+
 }

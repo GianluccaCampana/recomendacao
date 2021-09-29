@@ -1,0 +1,12 @@
+<div class="row">
+    <div class="col-md-6 form-group">
+      <label for="nomeInput">Recomendação</label>
+      <input type="text-area" class="form-control" id="recomendacaoInput" #recomendacaoInput>
+    </div>    
+  
+  <div class="row">
+    <button class="btn btn-primary btn-block" (click)="adicionar(recomendacaoInput.value)" type="button">Cadastrar</button>
+  </div>
+
+  <!--(click)="adicionar(nomeInput.value,
+  idadeInput.value)"-->
