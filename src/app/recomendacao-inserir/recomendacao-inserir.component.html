@@ -1,12 +1,14 @@
-<div class="row">
+<div style= "padding: 10%;">
+
+  <div class="row" style="border: solid; black">
     <div class="col-md-6 form-group">
-      <label for="nomeInput">Recomendação</label>
-      <input type="text-area" class="form-control" id="recomendacaoInput" #recomendacaoInput>
+      <h4 for="nomeInput" >Recomendar !</h4>
+      <textarea type="text-area" class="form-control" id="recomendacaoInput" #recomendacaoInput></textarea>
     </div>    
   
   <div class="row">
-    <button class="btn btn-primary btn-block" (click)="adicionar(recomendacaoInput.value)" type="button">Cadastrar</button>
+    <button style="margin-top: 2%" class="btn btn-danger btn-block" (click)="adicionar(recomendacaoInput.value)" type="button">Adicionar</button>
   </div>
 
-  <!--(click)="adicionar(nomeInput.value,
-  idadeInput.value)"-->
+</div>
+
